@@ -1,5 +1,5 @@
 // --- Personalization (edit these) ---
-const NAME = "Your Friend"; // change name
+const NAME = "Nandhini"; // change name
 const WISH = `Wishing you a day filled with smiles, surprises, and happiness!
 May this year bring you success, peace, and everything you dream of ✨
 Always stay amazing — Happy Birthday! 🎉`;
