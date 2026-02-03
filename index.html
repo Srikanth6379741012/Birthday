@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Confetti Canvas -->
+  <canvas id="confetti"></canvas>
+
+  <!-- Main Card -->
+  <div class="wrap">
+    <div class="card">
+      <div class="top">
+        <div class="badge">🎂 Birthday Surprise</div>
+        <h1 class="title">Happy Birthday, <span id="personName">Friend</span>! 🥳</h1>
+        <p class="subtitle">A small wish — but in a new way ✨</p>
+      </div>
+
+      <div class="balloons" aria-hidden="true">
+        <span class="b b1"></span>
+        <span class="b b2"></span>
+        <span class="b b3"></span>
+        <span class="b b4"></span>
+      </div>
+
+      <div class="gift">
+        <div class="gift-box" id="giftBox" role="button" tabindex="0" aria-label="Open the gift">
+          <div class="lid"></div>
+          <div class="box"></div>
+          <div class="ribbon"></div>
+        </div>
+        <p class="hint">Tap the gift 🎁</p>
+      </div>
+
+      <div class="message hidden" id="message">
+        <p class="typing" id="typing"></p>
+        <div class="actions">
+          <button id="shareBtn">Share this wish 🔗</button>
+          <button class="secondary" id="replayBtn">Replay ✨</button>
+        </div>
+      </div>
+
+      <footer class="footer">
+        Made with 💙 | <span id="today"></span>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
